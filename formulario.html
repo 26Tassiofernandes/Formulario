@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário básico</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="shortcut icon" href="form.ico" type="image/x-icon">
+    
+</head>
+<body>
+
+    <header>
+        
+        <h1>Candidatura de Emprego</h1>
+        
+        <br>
+        
+    </header>
+
+    <section>
+
+        <p id="ajeitar">Agradecemos o seu interesse em trabalhar conosco. Queremos saber mais sobre você, portanto, preeencha os campos abaixo e envie sua candidatura para o emprego voltado a área de tecnologia.</p> <br>
+
+        <div id="ajustar">
+            <p>
+                
+                Nome: <input type="text" placeholder="  Nome" required id="nome"> <input type="text" placeholder="  Sobrenome" required id="sobrenome"> 
+                <!--O required deixa o campo obrigatório-->
+            </p>
+
+            <p>
+
+                E-mail: <input type="email" name="email" id="email" placeholder=" E-mail" required> 
+
+            </p>
+            
+            <p>
+                <br>
+                <strong>• De qual lado da aplicação você desenvolve?</strong><br><br>
+            
+
+                <input type="radio" name="dev" id="front"> 
+                <label for="front">Front-End</label> <br>
+                <!--Para as bolinhas serem marcadas separadamente você deve colocar o mesmo nome para todos-->
+                <input type="radio" name="dev" id="back"> 
+                <label for="backend">Back-End</label> <br>
+
+                <input type="radio" name="dev" id="full">
+                <label for="full">Full-Stack</label> 
+
+            </p>
+
+            <p><br>
+                
+                <strong>• Grau de experiência</strong> <br><br>
+
+                <input type="radio" name="niveldev" id="inc">
+                <label for="inc">Iniciante</label> <br>
+
+                <input type="radio" name="niveldev" id="int">
+                <label for="int">Intermediário</label> <br>
+
+                <input type="radio" name="niveldev" id="avç">
+                <label for="avç">Avançado</label> <br>
+
+            </p>
+
+            <p><br>
+
+                <strong>• Selecione as tecnologias que você utiliza:</strong> <br><br>
+
+                <input type="radio" name="python" id="py"> Python
+                <input type="radio" name="java" id="java"> Java
+                <input type="radio" name="js" id="js"> JavaScript
+                <input type="radio" name="html" id="html"> HTML
+                <input type="radio" name="css" id="css"> CSS
+                <input type="radio" name="csharp" id="csharp"> C#
+                <input type="radio" radioame="php" id="php"> PHP
+                 
+
+            </p>
+
+            <p>
+                <br>
+
+                <label>• Conte-nos o motivo de você querer fazer parte de nossa equipe:</label>
+
+                <textarea rows="6" style="width: 26em" id="experiencia"></textarea>
+
+            </p>
+
+            <p>
+
+                <input type="submit" value="Enviar" id="enviar" onclick="send()">
+                <input type="reset" value="Resetar" id="reseta" onclick="resetar()">
+
+            </p>
+
+        </div>
+
+        <div id="msg"> 
+
+        </div>
+
+    </section>
+
+    <script src="codigo(formulario).js"></script>
+    
+</body>
+</html>
