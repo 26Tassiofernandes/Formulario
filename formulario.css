@@ -1,5 +1,5 @@
 body {
-    background-color: #2D2D2D;
+    background-color: #1B203D;
     
 }
 
@@ -8,13 +8,14 @@ header {
     text-align: center;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 
 }
 
 
 section {
     
-    background-color: #222222;
+    background-color: #272C4A;
     width: 500px;
     margin: auto;
     text-align: center;
@@ -25,6 +26,7 @@ section {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
     
+    
 }
 
 #ajustar {
@@ -34,21 +36,22 @@ section {
 
 #experiencia {
     margin-top: 15px;
-    background-color: #2D2D2D;
+    background-color: #1B203D;
+    
     
 }
 
 input {
     border-radius: 10px;
     border-style: hidden;
-    background-color: #2D2D2D;
+    background-color: #1B203D;
     
 }
 
 #enviar, #reseta {
 
     color: white;
-    background-color:#2D2D2D;
+    background-color: #1B203D;
     padding: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
