@@ -21,11 +21,12 @@ function send() {
 }
 
 function resetar() {
-
-    document.getElementById('nome').value = ''
-    document.getElementById('sobrenome').value = ''
-    document.getElementById('email').value = ''
-    document.getElementById('experiencia').value = ''
+    campos = ['nome', 'sobrenome', 'email', 'experiencia']
+        for (item in campos) {
+            document.getElementById(campos[item]).value = ''
+    }
+    
+    
     mensagem.innerHTML = ''
     
 }
