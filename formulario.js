@@ -1,8 +1,7 @@
-nome = document.getElementById('nome')
-sobrenome = document.getElementById('sobrenome')
-email = document.getElementById('email')
-exp = document.getElementById('experiencia')
-mensagem = document.getElementById('msg')
+campos = ['nome', 'sobrenome', 'email', 'exp', 'mensagem']
+for (item in campos) {
+    document.getElementById(campos[item]) /*Seleciona cada elemento por ID */
+}
 
 function send() {
     
