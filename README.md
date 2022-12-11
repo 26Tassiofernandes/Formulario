@@ -8,7 +8,7 @@
   
 </div>
 
-<img src="https://user-images.githubusercontent.com/86972667/197308994-bf3adac0-591e-47ef-ab62-c08adaa4e71c.png" alt="imagem">
+<img src="https://user-images.githubusercontent.com/86972667/206927190-aa199d99-3c88-4e8b-a9ed-ce199551a034.png" alt="imagem">
 
 ##
 
